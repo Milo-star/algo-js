@@ -1,9 +1,11 @@
 let n = parseInt(prompt("Entrer un nombre"));
-let sum = 0; 
+let p = 0; 
 
 let i = 0;
 while (i < n){
    let newNumber = parseInt(prompt("Entrer un nombre " + `${i+1}`));
-   sum += newNumber;
+   p += newNumber;
    i++;
 }
+
+console.log(p);
