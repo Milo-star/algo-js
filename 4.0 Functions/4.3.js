@@ -1,9 +1,7 @@
 let nombres = parseInt(prompt("Svp, choisis un nombre"));
 
-function rand10(){
-    let randomnbr = (Math.floor(Math.random() * (10 - 1 + 1) + 1));
-    return randomnbr;
-
+function rand10() {
+    return Math.trunc(Math.random() * 10) + 1
 }
 
 function multiRand(n){

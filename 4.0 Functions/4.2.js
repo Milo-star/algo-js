@@ -1,7 +1,5 @@
-function rand10(){
-    let randomnbr = (Math.floor(Math.random() * (10 - 1 + 1) + 1));
-    return randomnbr;
-
+function rand10() {
+    return Math.trunc(Math.random() * 10) + 1
 }
 
 console.log(rand10());
