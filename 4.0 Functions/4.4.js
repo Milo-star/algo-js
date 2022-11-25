@@ -25,6 +25,7 @@ const eleveBecode = [
     "Virginie Dourson"
 ];
 
+
 function pickLearner(inputAr, n){
-    
+
 }
