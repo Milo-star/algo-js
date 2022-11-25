@@ -27,5 +27,16 @@ const eleveBecode = [
 
 
 function pickLearner(inputAr, n){
-
+    let l = inputAr.length
+    let arr = []
+    for (i=0; i<n; i++){
+        let random = Math.floor(Math.random()*(l+1));
+        while (arr.includes(inputAr[random])){
+            let random = Math.floor(Math.random()*(l+1));
+        }
+        arr.push(inputAr[random])
+    }
+    return arr
 }
+
+console.log(pickLearner(eleveBecode, 5))
