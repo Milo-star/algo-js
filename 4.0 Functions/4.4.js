@@ -30,9 +30,9 @@ function pickLearner(inputAr, n){
     let l = inputAr.length
     let arr = []
     for (i=0; i<n; i++){
-        let random = Math.floor(Math.random()*(l+1));
+        let random = Math.floor(Math.random()*(l));
         while (arr.includes(inputAr[random])){
-            let random = Math.floor(Math.random()*(l+1));
+            let random = Math.floor(Math.random()*(l));
         }
         arr.push(inputAr[random])
     }
