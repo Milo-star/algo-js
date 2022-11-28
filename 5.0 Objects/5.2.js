@@ -11,7 +11,7 @@ function askTvSerie(){
     while (x!=""){
         x=prompt("Quel est le nom d'un autre membre de la distribution (appuyez sur Entrée si vous avez terminé")
         membres.push(x)
-    }
+    } 
     membres.pop()
     let TvSerie={
         "Name":Name,
